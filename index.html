@@ -34,7 +34,7 @@
             <h1>Hiba bejelentő űrlap</h1>
             
             <label for="browser" class="form-label">Válasz ki melyik böngészőt használod:</label>
-            <input class="form-control" list="browsers" name="browser" id="browser">
+            <input class="form-control" list="browsers" name="browser" id="browser" placeholder="---Válassz!---">
             <datalist id="browsers">
               <option value="Edge">
               <option value="Firefox">
@@ -43,8 +43,8 @@
               <option value="Safari">
             </datalist>
 
-            <p>Jelentés típusa:</p>
-            <select name="" id="">
+            <label for="tipus">Jelentés típusa:</label>
+            <select name="" id="tipus">
                 <option>---Válassz!---</option>
                 <option>Hiba jelentése</option>
                 <option>Bejelentkezési probléma</option>
