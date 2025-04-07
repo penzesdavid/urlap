@@ -1,0 +1,21 @@
+
+body{
+    background-color: rgb(139, 198, 221)
+}
+
+.login-side{
+    width: 20%;
+    float: right;
+    background-color: rgb(139, 198, 221)
+}
+
+.urlap{
+    width: 80%;
+    height: 1000px;
+    padding: 30px;
+    background-color: #fff;
+}
+
+.urlap h1{
+    text-align: center;
+}

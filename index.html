@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Űrlap</title>
+</head>
+<body>
+    <header>
+
+    </header>
+    <main>
+        <form class="login-side">
+            <h2>Fiók Bejelentés</h2>
+            <div class="mb-3 mt-3">
+              <label for="email" class="form-label">Email:</label>
+              <input type="email" class="form-control" id="email" placeholder="Enter email" name="email">
+            </div>
+            <div class="mb-3">
+              <label for="pwd" class="form-label">Password:</label>
+              <input type="password" class="form-control" id="pwd" placeholder="Enter password" name="pswd">
+            </div>
+            <div class="form-check mb-3">
+              <label class="form-check-label">
+                <input class="form-check-input" type="checkbox" name="remember"> Remember me
+              </label>
+            </div>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+
+          <form action="" class="urlap">
+            <h1>Hiba bejelentő űrlap</h1>
+            <input type="checkbox"> <a href="#">Elfogadom a feltételeket.</a>
+
+            <br>
+            Telefonszám: <input type="tel"/>
+
+            <br>
+            <label for="browser" class="form-label">Válasz ki melyik böngészőt használod:</label>
+            <input class="form-control" list="browsers" name="browser" id="browser">
+            <datalist id="browsers">
+              <option value="Edge">
+              <option value="Firefox">
+              <option value="Chrome">
+              <option value="Opera">
+              <option value="Safari">
+            </datalist>
+
+            <p>Probléma típusa:</p>
+            <select name="" id="">
+                <option>---Válassz!---</option>
+                <option>Hiba jelentése</option>
+                <option>Bejelentkezési probléma</option>
+                <option>Egyéb...</option>
+            </select>
+
+            <br>
+            Értesítendő cím: <input type="email" placeholder="pelda@email.com">
+
+            Bejelentés időpontja: <input type="date"> <input type="time">
+
+            <br>
+
+            A hiba pontos leírása: <textarea name="" id="" cols="40" rows="4" placeholder="Írd le pontosan a a problémát!"></textarea>
+
+            <br>
+            Adatok törlése <input type="reset">
+            <br>
+            <input type="submit">
+            <p>(A hiba jelentése után nem vonható vissza a kérelem!)</p>
+
+            
+          </form>
+
+          
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
