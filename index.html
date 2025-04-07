@@ -9,7 +9,7 @@
 </head>
 <body>
     <header>
-
+        
     </header>
     <main>
         <form class="login-side">
@@ -32,12 +32,7 @@
 
           <form action="" class="urlap">
             <h1>Hiba bejelentő űrlap</h1>
-            <input type="checkbox"> <a href="#">Elfogadom a feltételeket.</a>
-
-            <br>
-            Telefonszám: <input type="tel"/>
-
-            <br>
+            
             <label for="browser" class="form-label">Válasz ki melyik böngészőt használod:</label>
             <input class="form-control" list="browsers" name="browser" id="browser">
             <datalist id="browsers">
@@ -48,7 +43,7 @@
               <option value="Safari">
             </datalist>
 
-            <p>Probléma típusa:</p>
+            <p>Jelentés típusa:</p>
             <select name="" id="">
                 <option>---Válassz!---</option>
                 <option>Hiba jelentése</option>
@@ -57,18 +52,22 @@
             </select>
 
             <br>
-            Értesítendő cím: <input type="email" placeholder="pelda@email.com">
+            Telefonszám: <input type="tel"/>
 
-            Bejelentés időpontja: <input type="date"> <input type="time">
+            <br>
+        
+            <label for="email">Értesítendő cím:</label> <input type="email" placeholder="pelda@email.com" id="email">
+
+            <label for="">Bejelentés időpontja:</label> <input type="date"> <input type="time">
 
             <br>
 
-            A hiba pontos leírása: <textarea name="" id="" cols="40" rows="4" placeholder="Írd le pontosan a a problémát!"></textarea>
+            <label for="">A hiba pontos leírása:</label> <textarea name="" id="" cols="40" rows="4" placeholder="Írd le pontosan a a problémát!"></textarea>
 
             <br>
-            Adatok törlése <input type="reset">
+            <label for="">Adatok törlése</label> <input type="reset">
             <br>
-            <input type="submit">
+            <input type="submit"> <input type="checkbox"> <a href="#">Elfogadom a feltételeket.</a>
             <p>(A hiba jelentése után nem vonható vissza a kérelem!)</p>
 
             

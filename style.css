@@ -1,12 +1,13 @@
 
 body{
-    background-color: rgb(139, 198, 221)
+    background-color: rgb(139, 198, 221);
 }
 
 .login-side{
     width: 20%;
     float: right;
-    background-color: rgb(139, 198, 221)
+    background-color: rgb(139, 198, 221);
+    padding: 10px;
 }
 
 .urlap{
