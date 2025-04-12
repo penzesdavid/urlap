@@ -3,20 +3,40 @@ body{
     background-color: rgb(139, 198, 221);
 }
 
-.login-side{
-    width: 20%;
+.side-panel{
+    width: 25%;
     float: right;
     background-color: rgb(139, 198, 221);
     padding: 10px;
 }
 
+form{
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px;
+    background-color: #dadada;
+    border-radius: 10px;
+}
+
+th, td{
+    padding: 20px;
+    text-align: center;
+}
+
 .urlap{
-    width: 80%;
-    height: 1000px;
+    width: 75%;
     padding: 30px;
     background-color: #fff;
+    height: 800px;
 }
 
 .urlap h1{
     text-align: center;
 }
+
